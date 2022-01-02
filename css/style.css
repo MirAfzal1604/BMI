@@ -106,11 +106,20 @@
     }
 }
 
+@media screen and (max-width:1500px) {
+    .ball1,
+    .ball2,
+    .ball3,
+    .ball4 {
+        display: none;
+    }
+}
+
 @media screen and (max-width:600px) {
     .center_form_bmi {
-        width: 320px;
+        width: 100%;
+        margin: 0 auto;
         height: 45px;
-        ;
         padding: 15px;
         font-size: 18px;
     }
@@ -118,12 +127,6 @@
         padding: 12px 20px;
         font-size: 22px;
         margin: 20px 0 0 0;
-        width: 340px;
-    }
-    .ball1,
-    .ball2,
-    .ball3,
-    .ball4 {
-        display: none;
+        width: 100%;
     }
 }
